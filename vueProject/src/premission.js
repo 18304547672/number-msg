@@ -13,7 +13,7 @@ router.beforeEach((to,from,next)=>{
         const user = store.state.user.user
         if(!user){
             if(to.path=='/login'){
-                next()
+                next()  
             }else{
                 store.dispatch('GetUserInfo').then(response =>{
                     if(response.flag){
