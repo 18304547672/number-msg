@@ -60,7 +60,7 @@ cd vueProject
 npm install
 
 # 再启动前台
-npm run serve
+npm run serve 11
 # 启动easy-mock
 
 
