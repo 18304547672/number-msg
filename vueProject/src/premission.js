@@ -7,7 +7,7 @@ router.beforeEach((to,from,next)=>{
         if(to.path !== "/login"){
             next({path:'/login'})
         }else{
-            next()
+            next()  
         }
     }else{
         const user = store.state.user.user
