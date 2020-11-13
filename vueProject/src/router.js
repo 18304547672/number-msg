@@ -56,7 +56,7 @@ export default new Router({
     {
       path:"/goods",
       component:Layout,
-      children:[
+      children:[   
         {
           path:"/",
           component:Goods,
